@@ -8,7 +8,7 @@ public class Main {
     }
     public static void yearCheck (int auditedYear) { // для задачи 1
         if (auditedYear % 400 == 0)  System.out.println(auditedYear + " год является високосным");
-        else if (auditedYear % 4 == 0 && auditedYear % 100 !=0) System.out.println(auditedYear + " год является високосным");
+        else if (auditedYear  % 4 == 0 && auditedYear % 100 !=0) System.out.println(auditedYear + " год является високосным");
         else System.out.println(auditedYear + " год не является високосным");
     }
     public static void task1() {
